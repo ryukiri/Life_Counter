@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,26 +15,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LifeCounter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oft-v5-aTQ">
-                                <rect key="frame" x="20" y="42" width="335" height="82"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oft-v5-aTQ">
+                                <rect key="frame" x="20" y="49.999999999999993" width="335" height="81.333333333333314"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OBz-Dd-pim">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBz-Dd-pim">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="20.333333333333332"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWi-W1-oDQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWi-W1-oDQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4QO-m6-MQd">
-                                                <rect key="frame" x="99" y="0.0" width="236" height="20.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4QO-m6-MQd">
+                                                <rect key="frame" x="99" y="0.0" width="236" height="20.333333333333332"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNy-ye-yCW">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNy-ye-yCW">
+                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="PJE-bm-O08"/>
                                                         </constraints>
@@ -44,8 +44,8 @@
                                                             <action selector="player1PlusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zHd-M4-X1u"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoP-DN-GNg">
-                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoP-DN-GNg">
+                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="IPy-WQ-whO"/>
                                                         </constraints>
@@ -55,8 +55,8 @@
                                                             <action selector="player1MinusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zlh-gf-bdl"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueM-yt-1jb">
-                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueM-yt-1jb">
+                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="PaC-05-TOj"/>
                                                         </constraints>
@@ -66,8 +66,8 @@
                                                             <action selector="player1Plus5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I07-eE-9SJ"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-zc-k3D">
-                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-zc-k3D">
+                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="lyh-la-xdR"/>
                                                         </constraints>
@@ -81,20 +81,20 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iof-G6-ggc">
-                                        <rect key="frame" x="0.0" y="20.5" width="335" height="20.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iof-G6-ggc">
+                                        <rect key="frame" x="0.0" y="20.333333333333329" width="335" height="20.333333333333329"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcw-Nf-2zZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcw-Nf-2zZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rqc-6q-Q0E">
-                                                <rect key="frame" x="99" y="0.0" width="236" height="20.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqc-6q-Q0E">
+                                                <rect key="frame" x="99" y="0.0" width="236" height="20.333333333333332"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwx-NX-v17">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwx-NX-v17">
+                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="TER-H5-FC6"/>
                                                         </constraints>
@@ -104,8 +104,8 @@
                                                             <action selector="player2PlusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mat-am-gra"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da7-ne-oPD">
-                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da7-ne-oPD">
+                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="Luy-X6-7Dt"/>
                                                         </constraints>
@@ -115,8 +115,8 @@
                                                             <action selector="player2MinusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X0P-No-jvb"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEK-h4-ywY">
-                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEK-h4-ywY">
+                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="Awr-Ta-Rub"/>
                                                         </constraints>
@@ -126,8 +126,8 @@
                                                             <action selector="player2Plus5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TsX-3n-CvI"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="va1-EU-yd9">
-                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="va1-EU-yd9">
+                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="bv6-84-hkx"/>
                                                         </constraints>
@@ -141,20 +141,20 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1C-0Q-pLq">
-                                        <rect key="frame" x="0.0" y="41" width="335" height="20.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1C-0Q-pLq">
+                                        <rect key="frame" x="0.0" y="40.666666666666671" width="335" height="20.333333333333329"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZi-EP-2xN">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZi-EP-2xN">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RoL-hk-tZS">
-                                                <rect key="frame" x="99" y="0.0" width="236" height="20.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RoL-hk-tZS">
+                                                <rect key="frame" x="99" y="0.0" width="236" height="20.333333333333332"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omk-74-ivx">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omk-74-ivx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="QAB-iU-kct"/>
                                                         </constraints>
@@ -164,8 +164,8 @@
                                                             <action selector="player3PlusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0lI-Ac-cMt"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7r2-B6-3pU">
-                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7r2-B6-3pU">
+                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="Kz3-Mv-zbM"/>
                                                         </constraints>
@@ -175,8 +175,8 @@
                                                             <action selector="player3MinusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2Z-Gc-LGZ"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLl-GP-4jl">
-                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLl-GP-4jl">
+                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="GcC-EN-MoP"/>
                                                         </constraints>
@@ -186,8 +186,8 @@
                                                             <action selector="player3Plus5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LoK-4n-a9P"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0Q-rj-WVa">
-                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0Q-rj-WVa">
+                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="5oU-hD-Mfy"/>
                                                         </constraints>
@@ -201,20 +201,20 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RC5-AN-3it">
-                                        <rect key="frame" x="0.0" y="61.5" width="335" height="20.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RC5-AN-3it">
+                                        <rect key="frame" x="0.0" y="61.000000000000007" width="335" height="20.333333333333336"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HtO-IB-Wft">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HtO-IB-Wft">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N8c-Ek-Zc4">
-                                                <rect key="frame" x="99" y="0.0" width="236" height="20.5"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N8c-Ek-Zc4">
+                                                <rect key="frame" x="99" y="0.0" width="236" height="20.333333333333332"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vc-Ew-OP4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vc-Ew-OP4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="lFX-pq-Gyf"/>
                                                         </constraints>
@@ -224,8 +224,8 @@
                                                             <action selector="player4PlusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6s9-jS-0u6"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mre-57-rj3">
-                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mre-57-rj3">
+                                                        <rect key="frame" x="59" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="NcU-Rx-8NR"/>
                                                         </constraints>
@@ -235,8 +235,8 @@
                                                             <action selector="player4MinusAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MI4-PV-Hxl"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFz-Vd-UYj">
-                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFz-Vd-UYj">
+                                                        <rect key="frame" x="118" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="jBo-7q-DCc"/>
                                                         </constraints>
@@ -246,8 +246,8 @@
                                                             <action selector="player4Plus5Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xW-6S-FNc"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeE-Av-21S">
-                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.5"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VeE-Av-21S">
+                                                        <rect key="frame" x="177" y="0.0" width="59" height="20.333333333333332"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="59" id="85B-2h-gzu"/>
                                                         </constraints>
@@ -263,17 +263,102 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bGy-MG-WL8">
+                                <rect key="frame" x="20" y="355.33333333333331" width="335" height="101.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scoreboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Or0-15-6NY">
+                                        <rect key="frame" x="123" y="0.0" width="89" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwu-L0-veC">
+                                        <rect key="frame" x="20" y="20.333333333333371" width="295" height="81.333333333333329"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K3i-wG-4u7">
+                                                <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="81.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS3-cv-Ic1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="274.66666666666669" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOU-36-6LE">
+                                                        <rect key="frame" x="0.0" y="20.333333333333314" width="274.66666666666669" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCZ-Sg-GA4">
+                                                        <rect key="frame" x="0.0" y="40.666666666666629" width="274.66666666666669" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Player 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmC-aN-8yM">
+                                                        <rect key="frame" x="0.0" y="61.000000000000007" width="274.66666666666669" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rd3-OR-yzq">
+                                                <rect key="frame" x="274.66666666666669" y="0.0" width="20.333333333333314" height="81.333333333333329"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0M-tE-5f1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="20.333333333333332" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kQ-P2-GkI">
+                                                        <rect key="frame" x="0.0" y="20.333333333333314" width="20.333333333333332" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZy-2W-arS">
+                                                        <rect key="frame" x="0.0" y="40.666666666666629" width="20.333333333333332" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib4-Vc-2q9">
+                                                        <rect key="frame" x="0.0" y="61.000000000000007" width="20.333333333333332" height="20.333333333333336"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pwu-L0-veC" firstAttribute="leading" secondItem="bGy-MG-WL8" secondAttribute="leading" constant="20" id="eJU-dW-0kf"/>
+                                    <constraint firstAttribute="trailing" secondItem="pwu-L0-veC" secondAttribute="trailing" constant="20" id="sPL-sI-woW"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bGy-MG-WL8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1Vk-hM-Zts"/>
+                            <constraint firstItem="oft-v5-aTQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="NdY-P6-4et"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bGy-MG-WL8" secondAttribute="trailing" constant="20" id="c01-Bi-qOv"/>
+                            <constraint firstItem="bGy-MG-WL8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dDl-sb-ZD9"/>
                             <constraint firstItem="oft-v5-aTQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="drd-pk-XDd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oft-v5-aTQ" secondAttribute="trailing" constant="20" id="fuj-39-ReD"/>
+                            <constraint firstItem="bGy-MG-WL8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sl5-0g-LVW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="player1Minus5Action" destination="pHP-zc-k3D" id="XXL-rH-g43"/>
-                        <outlet property="player1MinusAction" destination="YoP-DN-GNg" id="2cZ-Gu-3wg"/>
+                        <outlet property="player1ScoreLabel" destination="r0M-tE-5f1" id="lvY-v1-wq8"/>
+                        <outlet property="player2ScoreLabel" destination="5kQ-P2-GkI" id="XX9-nv-Ysi"/>
+                        <outlet property="player3ScoreLabel" destination="nZy-2W-arS" id="bkn-ub-MdP"/>
+                        <outlet property="player4ScoreLabel" destination="Ib4-Vc-2q9" id="xb2-ag-P7b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
